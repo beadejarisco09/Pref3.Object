@@ -1,0 +1,17 @@
+// I Create an object called vehicle with the properties type, model, and color
+let vehicle = {
+  type: "Sports Car", 
+  model: "Ferrari 488 GTB", 
+  color: "Black"  
+};
+
+// Use typeof to check the type of the object and log it to the console
+console.log("Type of vehicle object:", typeof vehicle);  // Output: object
+
+// Update the type property to "Toyota" and log the updated object
+vehicle.type = "Toyota"; 
+console.log("Updated vehicle object:", vehicle);
+
+// I Add a new property wheels with the value 4 and log the updated object
+vehicle.wheels = 4;  // Added new property 'wheels'
+console.log("Vehicle object after adding wheels property:", vehicle);
